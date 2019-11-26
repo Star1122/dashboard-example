@@ -6,9 +6,12 @@ import { CacheProvider } from 'rest-hooks';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
+import 'react-perfect-scrollbar/dist/css/styles.css';
+
 import App from './App';
 import theme from './theme';
 import * as serviceWorker from './serviceWorker';
+import './style.scss';
 
 const history = History.createBrowserHistory();
 
